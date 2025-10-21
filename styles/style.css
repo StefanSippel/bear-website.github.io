@@ -1,0 +1,80 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 12px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: Inter;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+.highlight {
+  background-color: magenta;
+  color: black;
+}
+html {
+  background-color: #ffff00;
+}
+body {
+  width: 600px;
+  margin: 50px auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
+
+/*
+    p {
+    color: red;
+    }
+    h1 {
+    color: magenta;
+    }
+    ul {
+    color: green;
+    }
+    .highlight {
+    background-color: yellow;
+    color: black;
+    }
+    body {
+    font-family: sans-serif;
+    }
+
+    .notebox {
+    border: 4px solid #666666;
+    padding: 0.5em;
+    margin: 0.5em;
+    }
+
+    .notebox.warning {
+    border-color: orange;
+    font-weight: bold;
+    }
+
+    .notebox.danger {
+    border-color: red;
+    font-weight: bold;
+    }
+*/
